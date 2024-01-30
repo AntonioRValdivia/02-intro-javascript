@@ -9,7 +9,7 @@ const saludar = function(nombre) {      // Funcion anonima, no se puede reasigna
     return `Hola, ${nombre}`;
 }
 
-const saludar2 = (nombre) => {      // Funcion anónima de flecha, no se puede reasignar
+const saludar2 = (nombre) => {          // Funcion anónima de flecha, no se puede reasignar
     return `Hola, ${nombre}`;
 }
 
@@ -23,7 +23,7 @@ console.log(saludar2('Vegeta'));
 console.log(saludar3('Trunks'));        
 console.log(saludar4());
 
-const getUser = () => ({            // En el caso de retornar un objeto, se debe encerrar entre parentesis
+const getUser = () => ({            // En el caso de retornar un objeto, se debe encerrar entre parentesis, para que no se confunda con el cuerpo de la funcion
         uid: 'ABC123',
         username: 'fsociety'
 });

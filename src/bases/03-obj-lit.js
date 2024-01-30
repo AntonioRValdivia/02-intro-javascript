@@ -12,7 +12,7 @@ const persona = {
 
 // console.table( persona );
 
-const persona2 = { ...persona };
+const persona2 = { ...persona };        // Spread operator, crea una copia del objeto
 persona2.nombre = 'Peter';
 
 console.log(persona);
